@@ -7,7 +7,7 @@ Dans ce cas, nous n'avons pas besoin d'un modele et d'une view, vu que le test s
 de créer une petite API avec renvoi de résultat en format JSON, et donc il n'y a pas besoin
 d'une interface graphique, ni d'une communication avec la BDD.
 
-Pour la premiere étape, j'ai utilisé Spring Initializer pour avoir la structure du projet. 
+Pour la premiere étape, j'ai utilisé Spring Initializer pour avoir la structure du projet and j'ai importé la dependency "Spring Web" pour pouvoir créer mon API.
 
 Ensuite, j'ai crée le package pour le controller "com.example.testBackEnd.controller" ou j'ai crée le controller
 "IndexController.java" que contient deux méthodes principal: 
